@@ -21,8 +21,8 @@ class EndPage extends StatelessWidget {
               height: 300,
             ),
             ConstrainedBox(
-              constraints:
-                  const BoxConstraints.tightFor(width: 300, height: 50),
+              constraints: const BoxConstraints.tightFor(
+                  width: double.infinity, height: 50),
               child: ElevatedButton(
                   onPressed: () {},
                   style: ButtonStyle(

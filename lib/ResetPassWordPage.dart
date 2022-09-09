@@ -160,8 +160,8 @@ class ResetPassWordPageState extends State<ResetPassWordPage> {
                 height: 40,
               ),
               ConstrainedBox(
-                constraints:
-                    const BoxConstraints.tightFor(width: 400, height: 50),
+                constraints: const BoxConstraints.tightFor(
+                    width: double.infinity, height: 50),
                 child: ElevatedButton(
                     onPressed: () {
                       if (formKey.currentState!.validate()) {

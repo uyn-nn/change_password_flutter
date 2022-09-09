@@ -97,14 +97,14 @@ class RegisterPage extends StatelessWidget {
                         return 'Mã xác minh không hợp lệ!';
                       }
                     },
-                    onSaved: (value) {},
+                    //onSaved: (value) {},
                   ),
                   const SizedBox(
                     height: 40,
                   ),
                   ConstrainedBox(
-                    constraints:
-                        const BoxConstraints.tightFor(width: 400, height: 50),
+                    constraints: const BoxConstraints.tightFor(
+                        width: double.infinity, height: 50),
                     child: ElevatedButton(
                         onPressed: () {
                           if (formKey.currentState!.validate()) {
